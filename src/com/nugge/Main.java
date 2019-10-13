@@ -7,7 +7,7 @@ public class Main {
         for (int j = 2; j < 10; j++) {
             // 'k' är YiYi-1 //
             for (int k = 1; k < 91; k++) {
-                // test är summan av dessa tal //
+                // test är produkten av j och k //
                 int test = j * k;
                 String derp = String.valueOf(test);
                 // kollar att resultat är över 100//
